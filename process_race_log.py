@@ -2,7 +2,7 @@
 import os
 import sys
 
-# os.chdir('/opt/tiger/toutiao/log/run/')
+os.chdir('/opt/tiger/toutiao/log/run/')
 file_list = os.listdir('.')
 PSM_name = ''
 file_name = ''
