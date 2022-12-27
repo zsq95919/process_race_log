@@ -311,7 +311,7 @@ psm_map = {
 git = psm_map[PSM_name]
 consider_list = [git]
 
-file = open(file_name, encoding='unicode_escape')
+file = open(file_name, encoding='utf-8')
 
 find_race_begin = False
 race_list = []
